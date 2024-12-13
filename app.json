@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "nimbo-app",
+    "slug": "nimbo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",  
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover",
+      "image": "./assets/splashscreen_image.png",  
+      "hideExponentText": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hitesh_ifour.nimboapp"
+    },
+    "web": {
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

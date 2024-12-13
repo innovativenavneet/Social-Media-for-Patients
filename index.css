@@ -1,0 +1,62 @@
+:root {
+    --primary-blue: #0D66FF;
+    --light-blue: #9EC2FF;
+    --yellow: #FFFF00;
+    --dark-grey: #404040;
+    --medium-grey: #7E7E7E;
+    --light-grey: #CBCBCB;
+    --extra-light-grey: #F7F7F7;
+    --silver-grey: #D9D9D9;
+    --pink: #FF65B2;
+    --green: #14AE5C;
+    --orange: #FFA60D;
+    --purple: #A9A9FF;
+    --red: #FF4D4D;
+    --peach: #FFA60D;
+    --white: #FFFFFF;
+  }
+  .button {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: var(--light-blue);
+  }
+  
+  .button-follow {
+    width: 360px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-follow:hover {
+    background-color: var(--light-blue);
+  }
+  
+  .button-get-started {
+    width: 360px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: var(--primary-blue);
+    color: var(--white);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-get-started:hover {
+    background-color: var(--light-blue);
+  }
+  
